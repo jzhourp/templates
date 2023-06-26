@@ -1,3 +1,9 @@
+##############################################################################################
+// Local variables for setting up AWS Dynamic Credentials
+##############################################################################################
+# Use the following local variables for running terraform locally 
+# Add this file to .gitignore
+# Declare variables in TFC instead
 tfe_aws_audience = aws.workload.identity
 tfe_hostname = "app.terraform.io"
 tfe_org = "RealPage-CloudOps"	

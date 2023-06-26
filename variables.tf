@@ -1,3 +1,9 @@
+##############################################################################################
+// Terraform cloud variables
+##############################################################################################
+# Same variables as the ones in local.tfvars
+# These variables should be set in TFC
+# Leave the default values untouched
 variable "tfe_aws_audience" {
   type        = string
   default     = "aws.workload.identity"
