@@ -17,3 +17,6 @@ First, follow the required steps in creating a dedicated GitHub repo and Terrafo
 8. Copy the ARN of the created IAM role and use it to set the ```TFC_AWS_RUN_ROLE_ARN``` variable in TFC
 9. Un-comment the “Cloud” section of the provider.tf file 
 10. Merge your feature branch with the main branch in GitHub, validate the plan/apply results in Terraform cloud
+
+
+test change
