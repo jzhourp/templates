@@ -15,7 +15,7 @@ terraform {
   cloud {
     organization = "RealPage-CloudOps"
     workspaces {
-      tags = ["ACC"] // Use tags when mapping workspaces to git branches
+      tags = ["ACCT"] // Use tags when mapping workspaces to git branches
     }
   }
 }

@@ -1,4 +1,4 @@
-# Template for dynamic credentials setup
+# Dynamic Credentials Setup
 This repository contains the files needed to configure dynamic AWS credentials for Terraform Cloud. 
 
 First, follow the required steps in creating a dedicated GitHub repo and Terraform Cloud workspace. Then, once you have navigated to the respective repo, create a new branch following branch naming standards (USER-STORY-###), and follow the following steps:
@@ -11,7 +11,7 @@ First, follow the required steps in creating a dedicated GitHub repo and Terrafo
     - ```local.tfvars```
 3. Copy the required files to your project repo (following [contributing standards](https://github.com/RealPage-CloudOperations/github/blob/main/README.md#contributing))
 4. Update the necessary variable names to match the project name
-5. Setup your local machine with AWS credentials to give Terraform permissions for creating IAM roles
+5. Setup your local machine with AWS credentials to give Terraform permissions for creating IAM roles in AWS
 6. Comment out the “Cloud” section of the provider.tf file, then run terraform init and plan to validate the correct IAM role and policy creation 
 7. Run terraform apply, then validate the results in AWS 
 8. Copy the ARN of the created IAM role and use it to set the ```TFC_AWS_RUN_ROLE_ARN``` variable in TFC

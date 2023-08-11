@@ -34,7 +34,7 @@ variable "tfe_workspace_name" {
   description = "The name of the workspace that you'd like to create and connect to AWS"
 }
 
-variable "notivus_prod_environment_name" {
+variable "ACCT_ENV_environment_name" {
   type        = string
   default     = "env"
   description = "Environment Name"
